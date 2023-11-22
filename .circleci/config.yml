@@ -20,7 +20,7 @@ jobs:
     executor: node # use the `node` executor defined above
     steps:
       - checkout # check out the code in the project directory
-      - echo # run the `echo` command
+      - echo # run the `echo` command 
 
 workflows:
   my-workflow:
